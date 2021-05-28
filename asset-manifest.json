@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/comon-baekjoon-rank/static/css/main.0e844487.chunk.css",
-    "main.js": "/comon-baekjoon-rank/static/js/main.89d84616.chunk.js",
-    "main.js.map": "/comon-baekjoon-rank/static/js/main.89d84616.chunk.js.map",
+    "main.js": "/comon-baekjoon-rank/static/js/main.ce54db05.chunk.js",
+    "main.js.map": "/comon-baekjoon-rank/static/js/main.ce54db05.chunk.js.map",
     "runtime-main.js": "/comon-baekjoon-rank/static/js/runtime-main.4b959aaa.js",
     "runtime-main.js.map": "/comon-baekjoon-rank/static/js/runtime-main.4b959aaa.js.map",
     "static/js/2.364ce558.chunk.js": "/comon-baekjoon-rank/static/js/2.364ce558.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.4b959aaa.js",
     "static/js/2.364ce558.chunk.js",
     "static/css/main.0e844487.chunk.css",
-    "static/js/main.89d84616.chunk.js"
+    "static/js/main.ce54db05.chunk.js"
   ]
 }
