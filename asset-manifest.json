@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/comon-baekjoon-rank/client/static/css/main.0e844487.chunk.css",
+    "main.js": "/comon-baekjoon-rank/client/static/js/main.2b4ccd30.chunk.js",
+    "main.js.map": "/comon-baekjoon-rank/client/static/js/main.2b4ccd30.chunk.js.map",
+    "runtime-main.js": "/comon-baekjoon-rank/client/static/js/runtime-main.2458ca07.js",
+    "runtime-main.js.map": "/comon-baekjoon-rank/client/static/js/runtime-main.2458ca07.js.map",
+    "static/js/2.68c34fff.chunk.js": "/comon-baekjoon-rank/client/static/js/2.68c34fff.chunk.js",
+    "static/js/2.68c34fff.chunk.js.map": "/comon-baekjoon-rank/client/static/js/2.68c34fff.chunk.js.map",
+    "index.html": "/comon-baekjoon-rank/client/index.html",
+    "static/css/main.0e844487.chunk.css.map": "/comon-baekjoon-rank/client/static/css/main.0e844487.chunk.css.map",
+    "static/js/2.68c34fff.chunk.js.LICENSE.txt": "/comon-baekjoon-rank/client/static/js/2.68c34fff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2458ca07.js",
+    "static/js/2.68c34fff.chunk.js",
+    "static/css/main.0e844487.chunk.css",
+    "static/js/main.2b4ccd30.chunk.js"
+  ]
+}
