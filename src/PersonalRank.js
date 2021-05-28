@@ -37,16 +37,16 @@ const useStyles = makeStyles({
   },
 });
 
-function createData(rank, name, tier, experience, lastSubmit) {
-  return { rank, name, tier, experience, lastSubmit };
+function createData(rank, name, tier, experience, lastSubmit, account) {
+  return { rank, name, tier, experience, lastSubmit, account };
 }
 
 const rows = [
-  createData(1, '김진홍', 'Gold IV', '100,000Exp', '1시간 전'),
-  createData(2, '김수진', 'Silver V', '100,000Exp', '1시간 전'),
-  createData(3, '정형일', 'Bronze I', '100,000Exp', '1시간 전'),
-  createData(4, '이승현', 'Bronze II', '100,000Exp', '1시간 전'),
-  createData(5, '정회운', 'Bronze V', '100,000Exp', '1시간 전'),
+  createData(1, "김진홍", "Gold IV", "100,000Exp", "1시간 전", "deepred"),
+  createData(2, "김수진", "Silver V", "100,000Exp", "1시간 전", "deepred"),
+  createData(3, "정형일", "Bronze I", "100,000Exp", "1시간 전", "deepred"),
+  createData(4, "이승현", "Bronze II", "100,000Exp", "1시간 전", "deepred"),
+  createData(5, "정회운", "Bronze V", "100,000Exp", "1시간 전", "deepred"),
 ];
 
 export default function PersonalRank() {
@@ -54,7 +54,11 @@ export default function PersonalRank() {
 
   return (
     <TableContainer component={Paper} className={classes.table}>
-      <Table className={classes.table} size="small" aria-label="customized table">
+      <Table
+        className={classes.table}
+        size="small"
+        aria-label="customized table"
+      >
         <TableHead>
           <TableRow>
             <StyledTableCell>#</StyledTableCell>
@@ -69,10 +73,13 @@ export default function PersonalRank() {
             <StyledTableRow key={row.rank}>
               <StyledTableCell>{row.rank}</StyledTableCell>
               <StyledTableCell align="center">
-                <Link href="https://acmicpc.net/user/deepred" style={{ color: '#1769aa' }} target="_blank">
+                <Link
+                  href={"https://acmicpc.net/user/" + row.account}
+                  style={{ color: "#1769aa" }}
+                  target="_blank"
+                >
                   {row.name}
                 </Link>
-                
               </StyledTableCell>
               <StyledTableCell align="center">{row.tier}</StyledTableCell>
               <StyledTableCell align="center">{row.experience}</StyledTableCell>
